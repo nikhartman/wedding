@@ -1,6 +1,7 @@
 ![wedding](/images/wedding_sticker.png?raw=true "Merging")
 
-Justin Grimes (@justgrimes) and Ann Galloway (@gallowann) are getting married. This crappy website is dedicated to their love.
+Strom Borman and Katy Huff are getting married. Katy borrowed this websited source from Justin Grimes. Thanks for keeping stuff open, internet. 
+This website is where you can find info about Katy and Strom's Wedding.
 
 
 
