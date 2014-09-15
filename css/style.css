@@ -237,7 +237,7 @@ section {
 	width: 100%;
 }
 
-.justgrimes {
+.katyhuff {
  width: 370px;
  height:370px;
  display:block;
@@ -246,7 +246,7 @@ section {
  background:transparent url('../images/strom.jpg') center top no-repeat;
 }
 
-.justgrimes:hover {
+.katyhuff:hover {
    background-image: url('../images/stromicon.jpg');
 }
 
