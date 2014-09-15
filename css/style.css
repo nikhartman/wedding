@@ -243,11 +243,11 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/justin.jpg') center top no-repeat;
+ background:transparent url('../images/strom.jpg') center top no-repeat;
 }
 
 .justgrimes:hover {
-   background-image: url('../images/justin2.jpg');
+   background-image: url('../images/stromicon.jpg');
 }
 
 .amgallow {
@@ -256,11 +256,11 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/ann.jpg') center top no-repeat;
+ background:transparent url('../images/katy.jpg') center top no-repeat;
 }
 
 .amgallow:hover {
-   background-image: url('../images/ann2.jpg');
+   background-image: url('../images/katyicon.jpg');
 }
 
 .hover-effect i {
