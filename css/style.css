@@ -495,9 +495,7 @@ section {
 =========================================================================================*/
 
 #registry {
-	letter-spacing: 0.2em;
 	padding: 30px 0;
-	text-transform: uppercase;
 }
 
 #registry .item {
