@@ -34,7 +34,7 @@ h3,h4,h5,h6 {
 }
 
 h6 {
-	color: #d6516d;
+	color: #ff823e;
 }
 
 .x {
@@ -190,14 +190,14 @@ section {
 
 .heading span {
 	border: 0;
-	border-top: 1px solid #d6516d;
+	border-top: 1px solid #ff823e;
 	display: inline-block;
 	margin: 5px 10px;
 	width: 40px;
 }
 
 .heading i {
-	color: #d6516d;
+	color: #ff823e;
 }
 
 /* MAIN BANNER
@@ -213,7 +213,7 @@ section {
 }
 
 .hover-effect span {
-	background: #d6516d;
+	background: #ff823e;
 	color: #fff;
 	display: block;
 	height: 0;
@@ -243,7 +243,7 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/strom.jpg') center top no-repeat;
+ background:transparent url('../images/strom.png') center top no-repeat;
 }
 
 .katyhuff:hover {
@@ -256,11 +256,11 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/katy.jpg') center top no-repeat;
+ background:transparent url('../images/katy.png') center top no-repeat;
 }
 
 .amgallow:hover {
-   background-image: url('../images/katyicon.jpg');
+   background-image: url('../images/katyicon.png');
 }
 
 .hover-effect i {
@@ -302,8 +302,8 @@ section {
 }
 
 .social-icons a:hover {
-	border: 1px solid #d6516d;
-	color: #d6516d;
+	border: 1px solid #ff823e;
+	color: #ff823e;
 }
 
 /* PEOPLE & ACCOMMODATION
@@ -361,7 +361,7 @@ section {
 }
 
 .post-header span {
-	color: #d6516d;
+	color: #ff823e;
 }
 
 .post-meta {
@@ -431,7 +431,7 @@ section {
 }
 
 #facts .img-circle {
-	background: #d6516d;
+	background: #ff823e;
 	height: 213px;
 	padding-top: 60px;
 }
@@ -465,20 +465,14 @@ section {
 =========================================================================================*/
 
 #rsvp {
-	background: #d6516d;
-	border-radius: 8px;
-	color: #222;
-	margin-right: -470px;
+	background: #ff823e;
 	padding: 50px;
-	position: absolute;
-	right: 50%;
-	top: 50px;
-	width: 400px;
-	z-index: 100;
+	color: #fff;
 }
 
 #rsvp .heading {
 	padding-bottom: 20px;
+	color: #fff;
 }
 
 #rsvp .heading i {
@@ -487,12 +481,14 @@ section {
 
 #rsvp .heading span {
 	border-color: #fff;
+	color: #fff;
 }
 
 #rsvp .btn {
 	background: #222;
 	color: #fff;
 	margin-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* REGISTRY
@@ -554,11 +550,6 @@ footer {
 	#facts h3 {
 		font-size: 80px;
 	}
-
-	#rsvp {
-		margin-right: -560px;
-	}
-
 }
 
 /* Medium devices (desktops, 992px and up)
@@ -573,11 +564,6 @@ footer {
 	#facts h3 {
 		font-size: 50px;
 	}
-
-	#rsvp {
-		margin-right: -360px;
-	}
-
 }
 
 /* Small devices (tablets, 768px and up)
@@ -684,16 +670,6 @@ footer {
 
 	#map-canvas {
 		height: 250px;
-	}
-
-	#rsvp {
-		border-radius: 0;
-		margin-right: 0;
-		padding: 60px 15px;
-		position: relative;
-		right: auto;
-		top: auto;
-		width: 100%;
 	}
 
 }
