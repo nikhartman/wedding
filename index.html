@@ -105,6 +105,7 @@
 						<li><a href="#explain">Intro</a></li>
 						<li><a href="#events">Events</a></li>
 						<li><a href="#accommodation">Accommodation</a></li>
+						<li><a href="#location">Location</a></li>
 						<li><a href="#gallery">Gallery</a></li>
 						<li><a href="#rsvp">RSVP</a></li>
 						<li><a href="#registry">Gifts</a></li>
@@ -407,12 +408,13 @@
                                                         <p>In the place where 
                                                         we first met, we'll 
                                                         have a beer together 
-                                                        with anyone who is in 
-                                                        town. The Pub is 
+                                                        with anyone who has 
+                                                        arrived in Chicago 
+                                                        early. The Pub is 
                                                         members' only, but 
                                                         we'll cover your entry 
-                                                        fee and your first 
-                                                        round!</p> 
+                                                        fee and at least your 
+                                                        first round!</p> 
 						</div>
 					</div>
 					<div class="col-sm-4">
@@ -448,9 +450,21 @@
 							<img src="http://www.thethirdcity.org/blog/wp-content/uploads/2012/08/2valois-counter-girl.jpg" class="img-responsive" alt="" />
 							<h5>Breakfast At Valois</h5>
                                                         <h6>May 17th, 2015
-                                                        <br/>6:00 AM - Noon</h6>
-                                                        <p>The bride and groom will eat at Valois at 11am.</p>
-                                                        <p>It's not fancy, but it's delicious.</p>
+                                                        <br/>When you awaken.</h6>
+                                                        <p>1518 E. 53rd Street
+                                                        <br/>Chicago, Illinois 60615</p>
+                                                        <p>This is a historic 
+                                                        cafeteria near the 
+                                                        Harper Court Hyatt. 
+                                                        We wholeheartedly 
+                                                        recommend it. 
+                                                        <br/>If you wake up in 
+                                                        time, you may catch the 
+                                                        bride and groom eating 
+                                                        breakfast there 
+                                                        around 11am.</p>
+                                                        <p>It's not fancy, but 
+                                                        the grill is hot.</p>
 						</div>
 					</div>
 				</div>
@@ -475,8 +489,12 @@
 					<div class="col-sm-3 text-right" data-scroll-reveal="enter from the left after 0.25s">
 						<h5>Hyatt Place, Harper Court</h5>
 						<h6><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h6>
-                                                <p>5225 S. Harper Avenue
-                                                Chicago, Illinois, USA, 60615</p>
+                                                <p>5225 S. Harper Avenue<br/>
+                                                Chicago, Illinois, 60615</p>
+
+                                                <p>We have reserved a block of 
+                                                rooms under "Huff-Borman 
+                                                Wedding"</p>
 					</div>
 
 					<div class="col-sm-3" data-scroll-reveal="enter from the left after 0.25s">
@@ -502,7 +520,11 @@
 						<h5>AirBnB</h5>
 						<h6><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star">
 						</i><i class="fa fa-star"></i><i class="fa fa-star"></i></h6>
-						<p>Anywhere in Chicago. Take the #6 bus to Hyde Park.</p>
+						<p>AirBnB options exist 
+                                                everywhere in Chicago.
+                                                <br/>From most locations, the 
+                                                Metra train or the #6 bus are 
+                                                the best ways to get to Hyde Park.</p>
 						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span>
 						</span></div>
 					</div>
@@ -511,6 +533,101 @@
 		</section>
 
 		<!-- ========== ACCOMMODATION END ========== -->
+
+                <!-- ========== LOCATION START ========== -->
+                <section id="location">
+
+
+                        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoRMxiPsqJ9SUuaK1KsCAjd3gqnecjlBw&amp;sensor=true"></script>
+                        <script type="text/javascript">
+
+                                function initialize() {
+
+                                        // Create an array of styles.
+                                        var styles = [
+                                          {
+                                            "stylers": [
+                                              { "saturation": -100 },
+                                              { "gamma": 1 }
+                                            ]
+                                          },{
+                                            "featureType": "water",
+                                            "stylers": [
+                                              { "lightness": -12 }
+                                            ]
+                                          }
+                                        ];
+
+                                        // Create a new StyledMapType object, passing it the array of styles,
+                                        // as well as the name to be displayed on the map type control.
+                                        var styledMap = new google.maps.StyledMapType(styles,
+                                        {name: "Styled Map"});
+
+
+                                                                var mapOptions = {
+                                                                        scrollwheel: false,
+                                                                        zoom: 15,
+                                                                        center: 
+                                                                          new 
+                                                                          google.maps.LatLng(41.795364, -87.590316),
+                                        mapTypeControlOptions: {
+                                          mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                                        }
+                                        }
+                                        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+                                        //Associate the styled map with the MapTypeId and set it to display.
+                                        map.mapTypes.set('map_style', styledMap);
+                                        map.setMapTypeId('map_style');
+
+                                        setMarkers(map, weddingplaces,'images/map-marker.png' );
+                                }
+
+
+                                var weddingplaces = [
+                                        ['Ida Noyes. Ceremony 3rd Floor. Pub in Basement.', 41.788034,-87.595683,17],
+                                        ['Valois Restaurant', 41.799768,-87.588364,17],
+                                        ['Hyatt Place, Harper Court', 41.800156,-87.588942, 17]
+                                ];
+
+                                function setMarkers(map, locations, markerpic) {
+                                        // Add markers to the map
+                                        var image = {
+                                                url: markerpic,
+                                                // This marker is 40 pixels wide by 42 pixels tall.
+                                                size: new google.maps.Size(62, 58),
+                                                // The origin for this image is 0,0.
+                                                origin: new google.maps.Point(0,0),
+                                                // The anchor for this image is the base of the pin at 20,42.
+                                                anchor: new google.maps.Point(20, 58)
+                                        };
+
+                                        for (var i = 0; i < locations.length; i++) {
+                                                var place = locations[i];
+                                                var myLatLng = new google.maps.LatLng(place[1], place[2]);
+                                                var marker = new google.maps.Marker({
+                                                        position: myLatLng,
+                                                        map: map,
+                                                        icon: image,
+                                                        title: place[0],
+                                                        zIndex: place[3],
+                                                        animation: google.maps.Animation.DROP
+                                                });
+
+                                                var contentString = "Some content";
+                                                google.maps.event.addListener(marker, "click", function() {
+                                                        infowindow.setContent(this.html);
+                                                        infowindow.open(map, this);
+                                                });
+                                        }
+                                }
+
+                                google.maps.event.addDomListener(window, 'load', initialize);
+                        </script>
+
+                        <div id="map-canvas"></div>
+                        <!-- ========== LOCATION END ========== -->
+
 
 		<!-- ========== GALLERY START ========== -->
 
@@ -662,36 +779,29 @@
                                         <h2>Gifts</h2>
                                         <p><span></span><i class="fa fa-heart"></i><span></span></p>
 
-                                                <p>The presence of our loved 
-                                                ones is the only gift that we 
-                                                could wish for. We recognize 
-                                                the precious energy, time, and 
-                                                money you will invest in order 
-                                                to travel to our wedding from 
-                                                all corners of the nation. For 
-                                                this, we are enormously grateful.  
-                                                Furthermore, we have lived 
-                                                together for many years, so we 
-                                                have already arranged a 
-                                                comfortable home and are very 
-                                                lucky to have no remaining 
-                                                material needs.  We value 
-                                                experiences and wisdom above 
-                                                all things, so a hug when we 
-                                                see you, a kind letter of 
-                                                advice, or a speech prepared 
-                                                for our wedding will be 
-                                                cherished for much longer than 
-                                                any kitchen appliance.  
-                                                </p>
+                                        <p>Your presence is the only present 
+                                        that we could wish for. We recognize 
+                                        the precious energy, time, and money 
+                                        you will invest in order to travel to 
+                                        our wedding from all corners of the 
+                                        nation. For this, we are enormously 
+                                        grateful.  Furthermore, we have lived 
+                                        together for many years, so we have 
+                                        already arranged a comfortable home and 
+                                        are very lucky to have no remaining 
+                                        material needs.  We value experiences 
+                                        and wisdom above all things, so a hug 
+                                        when we see you, a kind letter of 
+                                        advice, or a speech prepared for our 
+                                        wedding will be cherished for much 
+                                        longer than any kitchen appliance.  </p>
 
-                                                <p>If your generosity knows no 
-                                                bounds, rest easy.  We are 
-                                                considering an adventurous  
-                                                honeymoon and will register 
-                                                online for contributions toward 
-                                                that adventure as soon as we 
-                                                decide where to go.</p>
+                                        <p>If your generosity knows no bounds, 
+                                        rest easy.  We are considering an 
+                                        adventurous  honeymoon and will 
+                                        register online for contributions 
+                                        toward that adventure as soon as we 
+                                        decide where to go.</p>
 					</div>
 				</div>
                                 <!--
