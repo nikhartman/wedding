@@ -599,12 +599,14 @@
                                         // Add markers to the map
                                         var image = {
                                                 url: markerpic,
-                                                // This marker is 40 pixels wide by 42 pixels tall.
-                                                size: new google.maps.Size(62, 58),
+                                                // This marker is 42 pixels wide by 68 pixels tall.
+                                                size: new google.maps.Size(21,34),
                                                 // The origin for this image is 0,0.
-                                                origin: new google.maps.Point(0,0),
+                                                //origin: new google.maps.Point(0,0),
+                                                origin: null,
                                                 // The anchor for this image is the base of the pin at 20,42.
-                                                anchor: new google.maps.Point(20, 58)
+                                                //anchor: new google.maps.Point(20, 42)
+                                                anchor: null
                                         };
 
                                         for (var i = 0; i < locations.length; i++) {
