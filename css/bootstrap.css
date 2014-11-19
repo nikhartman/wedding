@@ -2,6 +2,11 @@
  * Bootstrap v3.1.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * dark grass green = 419641
+ * yellow = ffde25
+ * goldenrodyellow = f09c03
+ * dark orange = d84b00
+ * grass green = 5cb85c
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
@@ -291,7 +296,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #d84b00;
+  color: #5cb85c;
   text-decoration: underline;
 }
 a:focus {
@@ -503,7 +508,7 @@ cite {
   color: #ff7125;
 }
 a.text-primary:hover {
-  color: #ffde25;
+  color: #419641;
 }
 .text-success {
   color: #3c763d;
@@ -534,7 +539,7 @@ a.text-danger:hover {
   background-color: #ff7125;
 }
 a.bg-primary:hover {
-  background-color: #ffde25;
+  background-color: #419641;
 }
 .bg-success {
   background-color: #dff0d8;
@@ -2304,7 +2309,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #d84b00;
+  color: #5cb85c;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3935,7 +3940,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background-color: #ff7125;
-  border-color: #d03656;
+  border-color: #ffde25;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -3980,7 +3985,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #d03656;
+  border-color: #ffde25;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -4159,7 +4164,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #d84b00;
+  color: #5cb85c;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -4291,7 +4296,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #ffde25;
+  background-color: #419641;
 }
 .label-success {
   background-color: #5cb85c;

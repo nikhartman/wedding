@@ -465,7 +465,7 @@ section {
 =========================================================================================*/
 
 #rsvp {
-	background: #ff823e;
+	background: #6ec06e;
 	padding: 50px;
 	color: #fff;
 }
@@ -485,8 +485,8 @@ section {
 }
 
 #rsvp .btn {
-	background: #222;
-	color: #fff;
+	background: #ffde25;
+	color: #222;
 	margin-top: 20px;
 	padding-bottom: 20px;
 }
