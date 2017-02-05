@@ -1,7 +1,6 @@
-![wedding](/images/wedding_sticker.png?raw=true "Merging")
+Stephanie Rabe and Nik Hartman have a wedding website!
 
-Strom Borman and Katy Huff are getting married. Katy borrowed this websited source from Justin Grimes. Thanks for keeping stuff open, internet. 
-This website is where you can find info about Katy and Strom's Wedding.
+This template is borrowed from Justin Grimes via Katy Huff. Thanks, team.
 
 
 
