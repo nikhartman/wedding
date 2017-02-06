@@ -237,30 +237,30 @@ section {
 	width: 100%;
 }
 
-.katyhuff {
+.hotpants {
  width: 370px;
  height:370px;
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/strom.png') center top no-repeat;
+ background:transparent url('../images/nik_alone_1.jpg') center top no-repeat;
 }
 
-.katyhuff:hover {
-   background-image: url('../images/stromicon.jpg');
+.hotpants:hover {
+   background-image: url('../images/nik_alone_2.jpg');
 }
 
-.amgallow {
+.dbangs {
  width: 370px;
  height:370px;
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/katy.png') center top no-repeat;
+ background:transparent url('../images/steph_alone_1.jpg') center top no-repeat;
 }
 
-.amgallow:hover {
-   background-image: url('../images/katyicon.png');
+.dbangs:hover {
+   background-image: url('../images/steph_alone_3.jpg');
 }
 
 .hover-effect i {
