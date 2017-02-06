@@ -243,11 +243,11 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/nik_alone_1.jpg') center top no-repeat;
+ background:transparent url('../images/nik_alone_1_resize.jpg') center top no-repeat;
 }
 
 .hotpants:hover {
-   background-image: url('../images/nik_alone_2.jpg');
+   background-image: url('../images/nik_alone_3_resize.jpg');
 }
 
 .dbangs {
@@ -260,7 +260,7 @@ section {
 }
 
 .dbangs:hover {
-   background-image: url('../images/steph_alone_3.jpg');
+   background-image: url('../images/steph_alone_2.jpg');
 }
 
 .hover-effect i {
