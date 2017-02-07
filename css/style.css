@@ -34,7 +34,7 @@ h3,h4,h5,h6 {
 }
 
 h6 {
-	color: #ff823e;
+	color: #7bc8be;
 }
 
 .x {
@@ -190,14 +190,14 @@ section {
 
 .heading span {
 	border: 0;
-	border-top: 1px solid #ff823e;
+	border-top: 1px solid #7bc8be;
 	display: inline-block;
 	margin: 5px 10px;
 	width: 40px;
 }
 
 .heading i {
-	color: #ff823e;
+	color: #7bc8be;
 }
 
 /* MAIN BANNER
@@ -213,7 +213,7 @@ section {
 }
 
 .hover-effect span {
-	background: #ff823e;
+	background: #7bc8be;
 	color: #fff;
 	display: block;
 	height: 0;
@@ -302,8 +302,8 @@ section {
 }
 
 .social-icons a:hover {
-	border: 1px solid #ff823e;
-	color: #ff823e;
+	border: 1px solid #7bc8be;
+	color: #7bc8be;
 }
 
 /* PEOPLE & ACCOMMODATION
@@ -361,7 +361,7 @@ section {
 }
 
 .post-header span {
-	color: #ff823e;
+	color: #7bc8be;
 }
 
 .post-meta {
@@ -431,7 +431,7 @@ section {
 }
 
 #facts .img-circle {
-	background: #ff823e;
+	background: #7bc8be;
 	height: 213px;
 	padding-top: 60px;
 }
@@ -465,7 +465,7 @@ section {
 =========================================================================================*/
 
 #rsvp {
-	background: #6ec06e;
+	background: #f27f6a;
 	padding: 50px;
 	color: #fff;
 }
@@ -485,7 +485,7 @@ section {
 }
 
 #rsvp .btn {
-	background: #ffde25;
+	background: #ffffff;
 	color: #222;
 	margin-top: 20px;
 	padding-bottom: 20px;
